@@ -17,9 +17,10 @@ pipeline {
                         url: "${repoUrl}"
             }
         }
-        stage("testing jenkins") {
+        stage("demo-newapp") {
             steps {
-                sh 'dh -f'
+                sh 'cat /etc/passwd'
+                echo "jenkins was an easy module"
             }
         }
         stage("to-test-maven") {
