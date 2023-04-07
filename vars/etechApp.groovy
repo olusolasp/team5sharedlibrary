@@ -1,4 +1,4 @@
-def call(String repoUrl){
+ddef call(String repoUrl){
     pipeline {
        agent any
        stages {
