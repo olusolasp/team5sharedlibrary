@@ -19,7 +19,7 @@ pipeline {
         }
         stage("to-test-maven") {
             steps {
-                sh 'mv -v'
+                sh 'mvn -v'
             }
         }
     }
